@@ -1,40 +1,40 @@
 
-    # a
+# README Generator
 
-    ## Description
+## Description
 
-    a
+Generates a professional README
 
-    ##Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
+##Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
     
-    ## Isnstallation
+## Isnstallation
 
-    a
+Download the Zip from my github page
 
-    ## Usage
+## Usage
 
-    a
+To Quickly generate a README
 
-    ## License
+## License
 
-    a
+none
 
-    ## Contributing
+## Contributing
 
-    aa
+Just Me :)
 
-    ## Tests
+## Tests
 
-    a
+none
 
-    ## Questions
-    [Link to my GitHub](a)
+## Questions
+[Link to my GitHub](https://github.com/dylan-fair/readMe-generator)
 
     
     

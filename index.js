@@ -111,42 +111,42 @@ let getInfo = function(){
 }
 const makePage = function(infoArr){
     return `
-    # ${infoArr.name}
+# ${infoArr.name}
 
-    ## Description
+## Description
 
-    ${infoArr.description}
+${infoArr.description}
 
-    ##Table of Contents
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
+##Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
     
-    ## Isnstallation
+## Isnstallation
 
-    ${infoArr.install}
+${infoArr.install}
 
-    ## Usage
+## Usage
 
-    ${infoArr.usage}
+${infoArr.usage}
 
-    ## License
+## License
 
-    ${infoArr.license}
+${infoArr.license}
 
-    ## Contributing
+## Contributing
 
-    ${infoArr.cont}
+${infoArr.cont}
 
-    ## Tests
+## Tests
 
-    ${infoArr.tests}
+${infoArr.tests}
 
-    ## Questions
-    [Link to my GitHub](${infoArr.questions})
+## Questions
+[Link to my GitHub](${infoArr.questions})
 
     
     `
