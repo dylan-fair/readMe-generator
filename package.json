@@ -1,0 +1,19 @@
+{
+  "name": "lesson9",
+  "version": "1.0.0",
+  "description": "Lesson 9 Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dylan-fair/readMe-generator.git"
+  },
+  "author": "Dylan Fair",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dylan-fair/readMe-generator/issues"
+  },
+  "homepage": "https://github.com/dylan-fair/readMe-generator#readme"
+}
