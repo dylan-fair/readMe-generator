@@ -1,13 +1,9 @@
-# a
 
-<<<<<<< HEAD
-# README Generator
+# Dylans ReadMe generaton
 
-=======
->>>>>>> 45f77e825e4e24c466a4742ee95bd8b7af44bcca
 ## Description
 
-Generates a professional README
+non
 
 ##Table of Contents
 * [Installation](#installation)
@@ -19,11 +15,11 @@ Generates a professional README
     
 ## Isnstallation
 
-Download the Zip from my github page
+download
 
 ## Usage
 
-To Quickly generate a README
+none
 
 ## License
 
@@ -31,14 +27,14 @@ none
 
 ## Contributing
 
-Just Me :)
+none
 
 ## Tests
 
 none
 
 ## Questions
-[Link to my GitHub](https://github.com/dylan-fair/readMe-generator)
+[Link to my GitHub](www.google.com)
 
     
     
