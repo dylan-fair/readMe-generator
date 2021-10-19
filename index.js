@@ -1,5 +1,8 @@
+const { get } = require('http')
+const inquirer = require('inquirer')
+const fs = require('fs'); 
 let getInfo = function(){
-    return inquirer.promt([
+    return inquirer.prompt([
         {
             type: 'input',
             name: 'name',
@@ -94,15 +97,79 @@ let getInfo = function(){
         {
             type: 'input',
             name: 'questions',
-            message: 'Enter any questions',
+            message: 'Please enter your github link',
             validate: nameInput => {
                 if(nameInput){
                     return true
                 } else {
-                    console.log("Please enter any tests");
+                    console.log("please enter a github url");
                     return false
                 }
             }
         }
     ])
 }
+const makePage = function(infoArr){
+    return `
+    # ${infoArr.name}
+
+    ## Description
+
+    ${infoArr.description}
+
+    ##Table of Contents
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [License](#license)
+    * [Contributing](#contributing)
+    * [Tests](#tests)
+    * [Questions](#questions)
+    
+    ## Isnstallation
+
+    ${infoArr.install}
+
+    ## Usage
+
+    ${infoArr.usage}
+
+    ## License
+
+    ${infoArr.license}
+
+    ## Contributing
+
+    ${infoArr.cont}
+
+    ## Tests
+
+    ${infoArr.tests}
+
+    ## Questions
+    [Link to my GitHub](${infoArr.questions})
+
+    
+    `
+}
+const writeFile = fileContent => {
+    return new Promise((resolve, reject) => {
+      fs.writeFile('readME.md', fileContent, err => {
+        if (err) {
+          reject(err);
+          return;
+        }
+  
+        resolve({
+          ok: true,
+          message: 'File created!'
+        });
+      });
+    });
+  }
+getInfo()
+    .then(info => {
+        return makePage(info);
+    })
+    .then(md =>{
+        return writeFile(md);
+    })
