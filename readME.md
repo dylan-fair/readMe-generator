@@ -1,6 +1,10 @@
+# a
 
+<<<<<<< HEAD
 # README Generator
 
+=======
+>>>>>>> 45f77e825e4e24c466a4742ee95bd8b7af44bcca
 ## Description
 
 Generates a professional README
