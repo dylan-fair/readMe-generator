@@ -106,6 +106,19 @@ let getInfo = function(){
                     return false
                 }
             }
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: 'Please enter your email!(Required)',
+            validate: nameInput => {
+                if(nameInput){
+                    return true
+                } else {
+                    console.log("enter email")
+                    return false
+                }
+            }
         }
     ])
 }
@@ -125,7 +138,7 @@ ${infoArr.description}
 * [Tests](#tests)
 * [Questions](#questions)
     
-## Isnstallation
+## Installation
 
 ${infoArr.install}
 
@@ -146,7 +159,8 @@ ${infoArr.cont}
 ${infoArr.tests}
 
 ## Questions
-[Link to my GitHub](${infoArr.questions})
+[Link to my GitHub for further questions!](${infoArr.questions})
+[My Email for further question!](${info.email})
 
     
     `
