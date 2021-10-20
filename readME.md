@@ -1,9 +1,9 @@
 
-# Dylans ReadMe generaton
+# README generator
 
 ## Description
 
-non
+Developes a ptofessional readme
 
 ##Table of Contents
 * [Installation](#installation)
@@ -13,13 +13,13 @@ non
 * [Tests](#tests)
 * [Questions](#questions)
     
-## Isnstallation
+## Installation
 
-download
+download the zip from this github page
 
 ## Usage
 
-none
+Effectivly create a README
 
 ## License
 
@@ -34,7 +34,8 @@ none
 none
 
 ## Questions
-[Link to my GitHub](www.google.com)
+[Link to my GitHub for further questions!](www.google.com)
+[My Email for further question!](dylanfair11@gmail.com)
 
     
     

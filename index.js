@@ -160,7 +160,7 @@ ${infoArr.tests}
 
 ## Questions
 [Link to my GitHub for further questions!](${infoArr.questions})
-[My Email for further question!](${info.email})
+[My Email for further question!](${infoArr.email})
 
     
     `
