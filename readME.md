@@ -1,12 +1,11 @@
 
-# README generator
+# Dylan Fair ReadMe Generator
 
 ## Description
 
-Developes a ptofessional readme
+Generates a professional readme
 
-##Table of Contents
-
+## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
@@ -16,11 +15,11 @@ Developes a ptofessional readme
     
 ## Installation
 
-download the zip from this github page
+download the zip from this github repo
 
 ## Usage
 
-Effectivly create a README
+To effectivly create a professional readme
 
 ## License
 
@@ -35,7 +34,7 @@ none
 none
 
 ## Questions
-[Link to my GitHub for further questions!](www.google.com)
+[Link to my GitHub for further questions!](https://github.com/dylan-fair/readMe-generator)
 [My Email for further question!](dylanfair11@gmail.com)
 
     

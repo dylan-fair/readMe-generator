@@ -130,7 +130,7 @@ const makePage = function(infoArr){
 
 ${infoArr.description}
 
-##Table of Contents
+## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [License](#license)
