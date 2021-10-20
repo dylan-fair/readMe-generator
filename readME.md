@@ -38,5 +38,8 @@ None
 [Link to my GitHub for further questions!](https://github.com/dylan-fair/readMe-generator)
 [My Email for further question!](dylanfair11@gmail.com)
 
+## Link to walkthrough video
+[link to video](https://drive.google.com/drive/folders/1DM8OTwH7eE4AJ3n6SdzeWHoFEyFSu25Y?usp=sharing)
+
     
     
