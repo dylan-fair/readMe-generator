@@ -125,6 +125,7 @@ let getInfo = function(){
 const makePage = function(infoArr){
     return `
 # ${infoArr.name}
+![License](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)
 
 ## Description
 
