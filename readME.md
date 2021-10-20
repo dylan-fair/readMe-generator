@@ -1,6 +1,6 @@
 
 # READEME Generator
-![License](https://img.shields.io/badge/license-APACHE 2.0-blue.svg)
+![GitHub License](https://img.shields.io/badge/license-APACHE)
 
 ## Description
 
