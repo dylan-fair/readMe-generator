@@ -1,5 +1,5 @@
 
-# READEME Generator
+# README Generator
 ![GitHub License](https://img.shields.io/badge/license-APACHE)
 
 ## Description
