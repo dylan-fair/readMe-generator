@@ -16,7 +16,7 @@ Quickly creates a professional README using node.js in the terminal.
     
 ## Installation
 
-Download the .zip file from my repo install node.js npm inquirer then run using node index.js
+Make sure you have Node.js installed on your computer. Clone my repo or download the .zip file from this page.
 
 ## Usage
 
